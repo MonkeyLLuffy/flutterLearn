@@ -19,17 +19,25 @@ class PhoneLoginPage extends StatelessWidget {
               // icon手机的那个图片
               SizedBox(height: 200),
               CircleIcon(
-                Icon(Icons.phone, color: Color(0xffFF295E)),
-                100,
-                100,
+                Icon(
+                  Icons.phone_android,
+                  color: Color(0xffFF295E),
+                  size: 60,
+                ),
+                200,
+                200,
                 bgColor: Color(0xFFF8F7FC),
               ),
+              SizedBox(height: 10),
               SizedText("本机号码", 16),
+              SizedBox(height: 10),
+
               SizedText("150XXXX7841", 20),
               SizedBox(
                 height: 200,
               ),
               SizedText("中国移动", 20),
+              SizedBox(height: 10),
               Container(
                   height: 50,
                   child: RoundButton("本机号码一键登录", 50.0,

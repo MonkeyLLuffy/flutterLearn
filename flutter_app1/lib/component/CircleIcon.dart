@@ -12,6 +12,7 @@ class CircleIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return ClipOval(
       child: Container(
+        padding: EdgeInsets.all(30),
         decoration: BoxDecoration(color: bgColor),
         child: this.icon,
       ),
