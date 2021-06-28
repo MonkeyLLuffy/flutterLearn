@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutterapp1/kehuaApp/InputPhonePage.dart';
+import 'package:flutterapp1/kehuaApp/InputVerifyCode.dart';
 import 'package:flutterapp1/kehuaApp/Login.dart';
 import 'package:flutterapp1/kehuaApp/PhoneLogin.dart';
 import 'TabPage.dart';
@@ -10,6 +12,8 @@ final routes = {
   "/home": (context) => TabsPage(),
   "/": (context) => LoginPage(),
   '/login': (context) => PhoneLoginPage(),
+  '/inputPhone': (context) => InputPhonePage(),
+  '/inputVerifyCode': (context) => InputVerifyCodePage(),
   '/cert': (context) => CertPage(),
   '/search': (context, {arguments}) => SearchPage(arguments: arguments)
 };

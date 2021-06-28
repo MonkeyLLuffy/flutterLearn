@@ -68,7 +68,8 @@ flutter:
   #         style: italic
   #   - family: Trajan Pro
   assets:
-    - assets/login_bg.jpg
+    - assets/qianjin.png
+    - assets/fanhui.png
       # fonts:
         # - asset: fonts/TrajanPro.ttf
 

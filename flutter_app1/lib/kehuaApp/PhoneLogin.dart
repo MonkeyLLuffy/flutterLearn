@@ -53,6 +53,8 @@ class PhoneLoginPage extends StatelessWidget {
                   child: RoundButton("输入手机号登录", 50.0,
                       btnBgColor: Color(0xffF8F7FC),
                       width: 250,
+                      onPressed: () =>
+                          {Navigator.of(context).pushNamed("/inputPhone")},
                       btnTextColor: Color(0xffFF295E),
                       textSize: 20)),
             ],
